@@ -1,5 +1,6 @@
 from keras import Model, Input
-from keras.layers import Dense, Dropout, Embedding, Bidirectional, LSTM, regularizers, Lambda
+from keras.layers import Dense, Dropout, Embedding, Bidirectional, LSTM, Lambda
+from keras import regularizers
 import numpy as np
 import keras.backend as K
 from keras.optimizers import RMSprop

@@ -1,6 +1,7 @@
 from keras import Model, Input
-from keras.layers import Dense, Dropout, Embedding, Bidirectional, LSTM, regularizers, K, Lambda, Concatenate, Permute, RepeatVector, Multiply, Flatten, Activation, Conv1D, MaxPooling1D
+from keras.layers import Dense, Dropout, Embedding, Bidirectional, LSTM, Lambda, Concatenate, Permute, RepeatVector, Multiply, Flatten, Activation, Conv1D, MaxPooling1D
 import numpy as np
+from keras import regularizers
 from keras.optimizers import Adam
 
 

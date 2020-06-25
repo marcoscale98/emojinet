@@ -1,6 +1,7 @@
 from keras import Model
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Embedding, Bidirectional, LSTM, regularizers
+from keras.layers import Dense, Dropout, Embedding, Bidirectional, LSTM
+from keras import regularizers
 import numpy as np
 from keras.optimizers import Adam
 

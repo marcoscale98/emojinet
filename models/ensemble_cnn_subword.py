@@ -1,6 +1,7 @@
 from keras import Model, Input
-from keras.layers import Dense, Dropout, Embedding, Conv1D, MaxPooling1D, Flatten, regularizers, Average, \
+from keras.layers import Dense, Dropout, Embedding, Conv1D, MaxPooling1D, Flatten, Average, \
     GlobalAveragePooling1D, Dot, Lambda
+from keras import regularizers
 import numpy as np
 import keras.backend as K
 from keras.optimizers import Adam, RMSprop

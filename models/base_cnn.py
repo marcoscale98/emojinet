@@ -1,6 +1,7 @@
 from keras import Model
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Embedding, Conv1D, MaxPooling1D, Flatten, regularizers
+from keras.layers import Dense, Dropout, Embedding, Conv1D, MaxPooling1D, Flatten
+from keras import regularizers
 import numpy as np
 from keras.optimizers import Adam
 

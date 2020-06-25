@@ -1,6 +1,6 @@
 from keras import Model, Input
-from keras.layers import Dense, Dropout, Embedding, Conv1D, MaxPooling1D, Flatten, regularizers, Average, \
-    GlobalAveragePooling1D
+from keras.layers import Dense, Dropout, Embedding, Conv1D, MaxPooling1D, Flatten, Average, GlobalAveragePooling1D
+from keras import regularizers
 import numpy as np
 from keras.optimizers import Adam
 
