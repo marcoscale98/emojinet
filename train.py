@@ -86,7 +86,7 @@ if __name__ == '__main__':
 
     def process_input(raw_input, user_data=None):
         if user_data is None:
-            return [tokenizer.texts_to_sequences([text for text, uid in raw_input.X])], raw_input.Y
+            return [tokenizer.texts_to_sequences([text for text, uid, tid in raw_input.X])], raw_input.Y
 
         texts = []
         history = []
